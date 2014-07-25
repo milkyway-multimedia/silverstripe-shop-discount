@@ -1,0 +1,14 @@
+---
+Name: shopdiscount-shipping
+Only:
+  moduleexists: 'shipping'
+After:
+  - 'framework/*'
+  - 'cms/*'
+  - 'shipping/*'
+---
+Discount:
+  extensions:
+    - 'Shop\Discount\ShippingExtension'
+  calculators:
+    - 'Shop\Discount\ShippingCalculator'
