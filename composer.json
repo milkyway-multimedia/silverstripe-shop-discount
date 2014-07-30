@@ -22,6 +22,6 @@
 		"burnbright/silverstripe-shop-shipping": "*"
 	},
 	"extra" : {
-		"installer-name": "shop_discount"
+		"installer-name": "shop-generic-charges-and-discounts"
     }
 }
